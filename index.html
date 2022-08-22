@@ -12,19 +12,39 @@
         <div class="header-top">
             <div class="top">
             <div class="top-left">
-                <div class="top-left1"><img src="images/logo.png" alt="logo"><span>Meals</span></div>
+                <div class="top-left1">
+                    <img src="images/logo.png" alt="logo"><span>Meals</span>
+                </div>
                 <div class="top-left2">
+                    
                     <nav>
-                        <a href="home" class="tab down" >Home</a>
-                        <a href="Menu" class="tab">Menu</a>
-                        <a href="home" class="tab">Meal Plan</a>
+                        
+                        <ul class ="nav-menu">
+                            <div class="top-rights">
+                                <div class="create">Create Account</div>
+                                <p>sign in</p>
+                                </div>
+                                <div class="live">
+                                    <li><a href="home" class="tab down" >Home</a></li>
+                                    <li><a href="Menu" class="tab">Menu</a></li>
+                                 <li><a href="home" class="tab">Meal Plan</a></li> 
+                                </div>
+                    
+                         
+                        </ul>
+                      
                     </nav>
                 </div>
             </div>
             <div class="top-right">
                 <div class="top-right1">
-                    <img src="images/search.png" alt="search logo" class="img one">
+                    <img src="images/search.png" alt="search logo" class="img search">
                     <img src="images/cart.png" alt="cart" class="img two">
+                    <div class="harmburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
                 <div class="top-right2">
                     <p>sign in</p>
@@ -43,16 +63,23 @@
                     <div class ="start">Get Started</div>
                 </div>
             </div>
+            <div id="search">
+                <label for="search" id="labels">Instant Order</label>
+                <input type="search" name="search" id="search" placeholder="Search for meal" >
+            </div>
             <div class="bottom-right"> 
                 <img src="images/jellof.png" alt="">
             </div>
            
         </div>
+        <div class="mess">
+            <img src="./images/chat.png" alt="chat us">
+        </div>
 
     </header>
     <main>
         <section class="mainone">
-            <p id="menu">menu</p>
+            <p id="menu">MENU</p>
             <div class="main-one-top">
                 <div class="left">
                     <h4>Current menu</h4>
@@ -140,22 +167,34 @@
        
         <section class="maintwo">
             <div class="twice">
+             
                 <div class="twice-left">
                     <h3>What our customer says about us</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
                 </div>
                 <div class="twice-right">
+                    <div class="comma">
+                        <div id="comma">
+                            <img src="./images/comma.png" alt="comma" id="comma">
+                            </div>
+                    </div>
+                    
                     <div class="caller">
                         <div class="caller-left">
-                            <div class="image"></div>
-                            <h4>John samson</h4>
-                            <p>Enugu nigeria</p>
+                            <div class="imagine"></div>
+                            <div class="john">
+                                <h4>John Samson</h4>
+                                <p>ENUGU NIGERIA</p></div>
+                            
                         </div>
-                        <div class="write">
-                            <p>White dwarf a still more glorious dawn awaits tingling of the spine emerged into consciousness Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the energy hidden in matter concept of the number one permanence.</p>
+                        <div id="write">
+                            <p>White dwarf a still more glorious dawn awaits tingling of the spine emerged into consciousness <span>Vangelis shores of the cosmic ocean. Tendrils of gossamer clouds kindling the energy hidden in matter concept of the number one permanence.</span></p>
                         </div>
+                        
                     </div>
+                    
                 </div>
+             
             </div>
         </section>
         <section class="mainthree">
@@ -167,7 +206,10 @@
                 <div class="thricebottom">
                     <div class="polls out">
                         <div class="onces">  
-                        <img src="images/takeout.png" alt="" id="eat">
+                            <div class="salt">
+                                <img src="images/takeout.png" alt="" id="eat">
+                            </div>
+                    
                       
                         <div class="takes">
                             <p id="red">Design    <span>01 October 2019</span></p>
@@ -181,7 +223,10 @@
 
                 <div class="polls sesame">
                     <div class="onces">
-                    <img src="images/sesame.png" alt="" id="eat">
+                        <div class="salt">
+                            <img src="images/sesame.png" alt="" id="eat">
+                        </div>
+              
                     <div class="takes">
                         <p id="red">Design    <span>01 October 2019</span></p>
                         <h5>The Best Sesame Soy Broccoli Salad</h5>
@@ -193,7 +238,11 @@
 
                 <div class="polls kung">
                     <div class="onces">
-                    <img src="images/kung.png" alt="" id="eat">
+                        <div class="salt ">
+                            <img src="images/sesame.png" alt="" class="sesames" id="eat">
+                            <img src="/images/kung.png" alt="" class="kungs" id="eat">
+                        </div>
+                   
                     <div class="takes">
                         <p id="red">Design    <span>01 October 2019</span></p>
                         <h5>Better Than Takeout Kung Pao Chicken</h5>
@@ -236,6 +285,18 @@
 
                     </ul>
                 </div>
+                <div class="bottomri">
+                    <div class="social">
+                    <img src="images/facebook.png" alt="facebook">
+                    </div>
+                    <div class="social">
+                    <img src="images/insta.png" alt="instagram">
+                    </div>
+                    <div class="social">
+                    <img src="images/twitter.png" alt="twitter">
+
+                    </div>
+                </div>
             </div>
     
                 <div class="footerbottom">
@@ -262,6 +323,6 @@
      
         </div>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
